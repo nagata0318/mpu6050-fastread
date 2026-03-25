@@ -7,7 +7,6 @@ namespace mpuext {
     //% shim=mpuext::read_frame
     Buffer read_frame() {
 
-        // I2C ポインタ
         auto i2c = &uBit.i2c;
 
         // 1. ACCEL_XOUT_H (0x3B) を指定
