@@ -1,0 +1,10 @@
+{
+    "name": "mpu6050fast",
+    "version": "0.0.1",
+    "description": "Fast MPU6050 frame reader (register auto-set hidden)",
+    "files": [
+        "main.ts",
+        "extension.cpp"
+    ],
+    "public": true
+}
