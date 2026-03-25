@@ -1,7 +1,7 @@
 //% color=#00AAFF weight=100
 namespace mpuext {
 
-    // C++ 関数をTSに公開する
+    // C++ 関数を TS に公開する
     //% shim=mpuext::read_frame
     declare function read_frame(): Buffer;
 
@@ -21,4 +21,3 @@ namespace mpuext {
         return { ax, ay, az, temp, gx, gy, gz };
     }
 }
-``
